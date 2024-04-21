@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    height: 600px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Images/LandingPage_Image.jpg");
+}
+
+/* input tag */
+input{
+    height: 20%;
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    color: antiquewhite;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    /* border-width: 1px; */
+    /* border-radius: 20px; */
+    outline: none;
+}
+
+
+/* paragraph */
+.paragraph{
+    /* background-color: red; */
+    margin: 0 40px ;
+}
+
+/*  Container styling*/
+.container {
+    margin: 20px;
+    padding: 40px;
+    color: #000;
+    width: 80%;
+    border: 1px solid ;
+    border-radius: 15px;
+    background-color: white;
+    /* background-co; */
+    /* background-color: #FFF; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* All buttons container */
+.all-btns-ctn{
+    /* padding: 20px; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    /* margin: 0 10px; */
+    /* background-color: aqua; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LogIn-btn{
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #4796ff;
+    /* margin-bottom: 10px; */
+
+    /* width: relative; */
+}
+
+.all-btns-ctn .Other-LogIn{
+    color: white;
+    max-width: 150px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #4796ff;
+}
+
+/* card styling */
+.card {
+    height: 200px;
+    max-width: 500px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    padding: 30px;  
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column; /* Stack divs vertically */
+    }
+
+    .paragraph{
+        margin-bottom: 40px;
+    }
+
+    .card{
+        width: 60%;
+    }
+
+  }
