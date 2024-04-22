@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid;
+    width: 225px;
+}
+
+/* card styling */
+.card{
+    height: 300px;
+    width: 250px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
