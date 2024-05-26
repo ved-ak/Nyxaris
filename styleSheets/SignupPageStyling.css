@@ -11,10 +11,12 @@ body{
     justify-content: center;
     align-items: center;
     /* background-color: #748d92; */
+    background-image: url("../Images/12.png");
 }
 
 h1{
     margin-bottom: 30px;
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,7 +39,9 @@ input{
 }
 
 input::placeholder{
-    ;
+    /* padding-left: 5px; */
+    /* font-style: italic; */
+    font-size: 14.5px;
 }
 
 /* card styling */
@@ -52,6 +56,7 @@ input::placeholder{
     justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 5px lightgray;
+    background-color: white;
     /* background-color: ; */
 }
 
@@ -73,10 +78,31 @@ input::placeholder{
     margin-right: 20px;
 }
 
+.Google:hover, .GitHub:hover, .SignUp:hover{
+    color: black;
+    background-color: ;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
 .GitHub{
     width: 100px;
     height: 30px;
     border: 0;
     border-radius: 3px;
     /* margin-left: 12.5px; */
+}
+
+.loginPageLink{
+    font-size: medium;
+    text-decoration: none;
+}
+
+.loginPageLink:hover,
+.loginPageLink:focus {
+  color: blue; /* Change the color on hover/focus, if needed */
+  text-decoration: underline;
+}
+
+input:hover{
+    box-shadow: 0px 2px lightgray;
 }

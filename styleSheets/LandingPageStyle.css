@@ -6,10 +6,19 @@
 body{
     height: 600px;
     font-size: large;
+    flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-image: url("../Images/LandingPage_Image.jpg");
+    align-items: center;    
+    background-image: url("../Images/12.png");
+    background-color: white;
+}
+
+.WebName{
+    margin-top: 75px;
+    font-size: 60px;
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* input tag */
@@ -17,35 +26,48 @@ input{
     height: 20%;
     border: 0;
     border-bottom: 1px solid #b4becb;
-    color: antiquewhite;
+    color: black;
     width: 100%;
     font-size: 16px;
     background-color: transparent;
+    caret-color: black;
     /* border-width: 1px; */
     /* border-radius: 20px; */
+    font-size: 17px;
     outline: none;
 }
 
+input:hover, input:focus{
+    box-shadow: 0px 2px lightgray;
+    font-size: 19px;
+}
 
 /* paragraph */
 .paragraph{
     /* background-color: red; */
-    margin: 0 40px ;
+    max-width: 600px;
+}
+
+.text-para{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /*  Container styling*/
 .container {
     margin: 20px;
+    margin-top: 0px;
     padding: 40px;
     color: #000;
     width: 80%;
-    border: 1px solid ;
+    /* border: 1px solid ; */
     border-radius: 15px;
-    background-color: white;
+    /* background-color: #e0fbfc;   */
     /* background-co; */
     /* background-color: #FFF; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -64,7 +86,7 @@ input{
 
 .LogIn-btn{
     color: white;
-    width: 200px;
+    width: 250px;
     height: 30px;
     border: 0;
     border-radius: 5px;
@@ -72,6 +94,11 @@ input{
     /* margin-bottom: 10px; */
 
     /* width: relative; */
+}
+
+.LogIn-btn:hover{
+    color: black;
+    box-shadow: 2px 2px lightgray;
 }
 
 .all-btns-ctn .Other-LogIn{
@@ -85,16 +112,25 @@ input{
 
 /* card styling */
 .card {
-    height: 200px;
-    max-width: 500px;
+    height: 300px;
+    width: 250px;
     border: #000 solid 1px;
+    background-color: white;
     border-radius: 10px;
     padding: 30px;  
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 600px) {
     .container {
