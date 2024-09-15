@@ -4,105 +4,69 @@
 }
 
 body{
-    max-width: 1280px;
-    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.webNameBlock {
+    background-color: #8244ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.WebName{
+    color: wheat;
+    font-size: 108px;
+}
+
+.container{
+    border: black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #748d92; */
-    background-image: url("../Images/12.png");
-}
-
-h1{
-    margin-bottom: 30px;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.btns{
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
+    width: 40%;
+    height: 40%;
+    border: 1px solid;
+    border-radius: 15px;
+    gap: 6%;
+    padding: 30px 0px;
 }
 
 input{
-    margin: 10px 0;
-    padding: 10px 0;
-    border: 0;
-    border-bottom: 1px solid;
-    /* border-radius: 10px; */
-    width: 225px;
+    width: 70%;
+    height: 15%;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 3px;
+}
+
+input:focus{
     outline: none;
+    margin-bottom: 1px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-input::placeholder{
-    /* padding-left: 5px; */
-    /* font-style: italic; */
-    font-size: 14.5px;
-}
-
-/* card styling */
-.card{
-    height: 300px;
-    width: 250px;
-    padding: 30px;
-    border: 0.5px solid black;
-    border-radius: 10px;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 10px 10px 5px lightgray;
-    background-color: white;
-    /* background-color: ; */
-}
 
 .SignUp{
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bold;
     color: white;
-    background-color: lightgreen;
-    border: 0;
-    width: 225px;
-    height: 30px;
-    border-radius: 3px;
-    margin-bottom: 10px;
-}
-
-.Google{
-    width: 100px;
-    height: 30px;
-    border: 0;
-    border-radius: 3px;
-    margin-right: 20px;
-}
-
-.Google:hover, .GitHub:hover, .SignUp:hover{
-    color: black;
-    background-color: ;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-.GitHub{
-    width: 100px;
-    height: 30px;
-    border: 0;
-    border-radius: 3px;
-    /* margin-left: 12.5px; */
-}
-
-.loginPageLink{
-    font-size: medium;
-    text-decoration: none;
-}
-
-.loginPageLink:hover,
-.loginPageLink:focus {
-  color: blue; /* Change the color on hover/focus, if needed */
-  text-decoration: underline;
-}
-
-input:hover{
-    box-shadow: 0px 2px lightgray;
+    background-color: #8244ad;
 }
