@@ -11,16 +11,16 @@
             <h1 class="WebName">Nyxaris</h1>
         </div>
         <div class="container">
-            <div class="card">
-                <input type="text" placeholder="User Name">
-                <input type="text" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <div class="all-btns-ctn">
-                    <button class="SignUp">SignUp</button>
-                </div>
+            <form id="SignUpPage">
+                <input id="signup-UserName" type="text" placeholder="User Name">
+                <input id="signup-Email" type="text" placeholder="Email">
+                <input id="signup-Password" type="password" placeholder="Password">
+                <button class="SignUp">SignUp</button>
+                <p id="error"></p>
                 <a class="loginPageLink" href="LandingPage.html">Back to Login ... </a>
-            </div>
-
+            </form>
         </div>
+
+        <script src="./js/signUp.js"></script>
     </body>
 </html>

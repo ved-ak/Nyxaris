@@ -6,32 +6,36 @@
 body{
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    width: 100vw;
 }
 
 .webNameBlock {
-    background-color: #8244ad;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100vh;
-    border-radius: 0px 25px 25px 0px;
+    height: 100%;
 }
 
 .WebName{
-    color: wheat;
-    font-size: 108px;
+    color: #8244ad;
+    font-size: 13vh;
 }
 
-.container{
+.container, .SignUpPage{
     border: black;
+    background-color: #8244ad;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 25px 0px 0px 25px;
 }
 
-.card{
+form{
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;

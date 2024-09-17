@@ -31,13 +31,13 @@ body{
     align-items: center;
 }
 
-.card{
+form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 30%;
+    height: 40%;
     border: 1px solid;
     border-radius: 15px;
     gap: 20%;
